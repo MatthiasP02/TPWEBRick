@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Affiche le titre le plus important-->
+    <h1>Rick et Morty</h1>
+    <!--Affiche l'image demandée--><img src="C:\Users\Matthias\Desktop\TPWEB01\Rick&Morty.jpg"
+        alt="Je suis Rickornichon" height="480" width="720">
+    <!--sert à écrire des paragraphes-->
+    <p>Rick et Morty est une série créé par Justin Roiland</p>
+    <!--sert à lister des informations; la balise <ul> servant à créer une liste précédé d'une puce et <li> sert à mettre un élément donc du texte notamment-->
+    <ul>
+        <li>Rick est un scientifique, surnommé l'homme le plus intelligent de la Terre</li>
+        <li>Morty est le petit fils de Rick, il l'accompagne dans ses aventures interdimensionnelles</li>
+        <li>Il y a également des personnages secondaires qui interviennent au cours de la série tel que : Beth, Jerry ou
+            encore Summer</li>
+    </ul>
+    <p>Leur but :</p>
+    <!--<ol> sert à faire une liste ordonné avec des chiffres 1.,2.,3. etc-->
+    <ol>
+        <li>S'amuser</li>
+        <li>Se rassembler</li>
+        <li>Et surtout faire du grand n'importe quoi</li>
+    </ol>
+    <hr>
+    <p>Voici l'historique des épisodes :</p>
+    <a target="_blank" href="https://fr.wikipedia.org/wiki/Liste_des_%C3%A9pisodes_de_Rick_et_Morty">Liste</a>
+    <!--La balise <table> sert à créer un tableau, afin de pouvoir bien construire son tableau on utilise <tr> pour représenter une ligne; <td> pour représenter une cellule de données-->
+    <br>
+    <table>
+        <tr>
+            <th></th>
+            <th>Les épisodes favoris</th>
+        </tr>
+        <tr>
+            <th>Saison 1</th>
+            <th>Saison 2</th>
+            <th>Saison 3</th>
+        </tr>
+        <tr>
+            <td>La boîte à larbins</td>
+            <td>On va vous faire schwifter</td>
+            <td>Rick-ornichon</td>
+        </tr>
+        <tr>
+            <td>Télé...visions</td>
+            <td>Qui est-ce qui purge, maintenant ?</td>
+            <td>Froopyland</td>
+        </tr>
+    </table>
+    <p>Inscris toi à la newsletter</p>
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+            <label for="name">Entrez votre nom d'utilisateur: </label>
+            <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-example">
+            <label for="email">Entrez votre adresse mail: </label>
+            <input type="email" name="email" id="email" required />
+        </div>
+        <label for="story">Raconte nous une anecdote sur toi:</label>
+
+        <textarea id="story" name="story" rows="5" cols="33">
+Ecris ici
+</textarea>
+        <div class="form-example">
+            <input type="submit" value="Inscris toi" />
+        </div>
+    </form>
+    <button class="favorite styled" type="button">Ceci est un bouton</button>
+    <div>
+        <blockquote cite="https://www.adultswim.com/etcetera/elastic-man/">
+            <p>
+                <strong>Shum Shum</strong> <em>Shlippedy Ouahh</em>
+            </p>
+        </blockquote>
+        <p>Rick Sanchez <cite>Rick et Morty</cite></p>
+    </div>
+</body>
+
+</html>
